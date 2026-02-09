@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 6433",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@libsql/client": "^0.17.0",
+    "an-array-of-english-words": "^2.0.0",
+    "better-sqlite3": "^12.6.2",
     "next": "16.1.6",
+    "openai": "^6.19.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "word-list": "^4.1.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

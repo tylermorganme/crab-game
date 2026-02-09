@@ -1,0 +1,6 @@
+{
+  "id": "hot-cold",
+  "name": "Hot & Cold",
+  "description": "Guess the secret word — each guess tells you how semantically close you are. Navigate meaning-space from freezing to on fire.",
+  "focus": "Semantic proximity as the core feedback loop. Every guess teaches you about the shape of the meaning-space around the hidden word."
+}
